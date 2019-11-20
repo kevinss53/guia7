@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:gravity="center"
+        android:text="Menu de opciones" />
+
+    <Button
+        android:id="@+id/btnjugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:background="@drawable/botonredondo2"
+        android:onClick="onClick"
+        android:outlineAmbientShadowColor="#B40404"
+
+        android:text="Jugar" />
+
+    <Button
+        android:id="@+id/btnverpuntaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:background="@drawable/botonredondo2"
+        android:onClick="onClick"
+        android:outlineAmbientShadowColor="#E80CCC3E"
+        android:text="Ver puntaje" />
+
+    <Button
+        android:id="@+id/btnverrespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:onClick="onClick"
+
+        android:outlineAmbientShadowColor="#E869C9C1"
+        android:background="@drawable/botonredondo2"
+        android:text="Ver Respuesta correcta" />
+
+    <Button
+        android:id="@+id/btnmisdatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:onClick="onClick"
+
+        android:outlineAmbientShadowColor="#E869C9C1"
+        android:background="@drawable/botonredondo2"
+        android:text="Mis datos" />
+
+</LinearLayout>
